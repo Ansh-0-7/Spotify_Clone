@@ -4,7 +4,7 @@ import styled from "styled-components";
 export default function Login() {
   const handleClick = async () => {
     const client_id = "a849530771af4ea3bc472f638a374bec";
-    const redirectUrl = "http://localhost:3000/";
+    const redirectUrl = "https://ansh-0-7.github.io/Spotify_Clone/";
     const api_uri = "https://accounts.spotify.com/authorize";
     const scope = [
       "user-read-private",
